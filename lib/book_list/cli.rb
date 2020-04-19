@@ -70,15 +70,13 @@ This app will give you the top 15 NYT best sellers in a given week!"
     puts "- Publisher: #{book.publisher}"
     puts "- Time on List: #{book.list_time}"
     puts "- Description: #{book.description}"
-
-    #puts "- Review: #{book.review}"
     puts "- Purchase: #{book.purchase_link}"
     puts ""
 
   end
 
   def print_books(date,genre)
-    if date = ""
+    if date == ""
       date = "This Week"
     end
     puts ""

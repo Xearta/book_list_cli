@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require './lib/book_list'
+require_relative '../lib/book_list'
 
 BookList::CLI.new.call

@@ -10,19 +10,17 @@ class BookList::Book
         b.css('p.css-heg334').text, #Publisher
         b.css('p.css-1o26r9v').text, #List Time
         b.css('p.css-14lubdp').text, #Description
-        #b.css('div.css-1cpfh5o a.css-1p7bloz'), # Review
         b.css('a.css-hndxeu').first['href'] #Purchase Link
 
     )
   end
 
-  def initialize(title=nil, author=nil, publisher=nil, list_time=nil, description=nil, review="Empty", purchase_link=nil)
+  def initialize(title=nil, author=nil, publisher=nil, list_time=nil, description=nil, purchase_link=nil)
     @title = title
     @author = author
     @publisher = publisher
     @list_time = list_time
     @description = description
-    @review = review
     @purchase_link = purchase_link
     @@all << self
   end
