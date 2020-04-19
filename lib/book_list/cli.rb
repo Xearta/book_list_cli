@@ -10,7 +10,7 @@ This app will give you the top 15 NYT best sellers in a given week!"
   def start
     BookList::Book.all.clear
     puts "================================="
-    puts "Enter the week you want to see (Format: MM-DD-YYYY)"
+    puts "Enter the week you want to see [2015+] (Format: MM-DD-YYYY)"
     date = gets.chomp
     test = date.split('-')
 

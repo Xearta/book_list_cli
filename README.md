@@ -1,8 +1,6 @@
 # BookList
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/book_list`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This Ruby Gem provides the user with the top 15 books on the New York Times Best Seller's list based on any given week through a CLI. The user can specify the week and fiction/nonfiction. The user can also request more information about any book on the list.
 
 ## Installation
 
@@ -22,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In the gem directory, type the following and follow the on screen prompts.
+
+    $ ./bin/book_list
 
 ## Development
 
