@@ -19,13 +19,10 @@ Or install it yourself as:
     $ gem install book_list
 
 ## Usage
-
 In the gem directory, type the following and follow the on screen prompts.
-<<<<<<< HEAD
 
-=======
->>>>>>> 7de7338658c5b92535c5abc5783d0a79cfb0a247
     $ ./bin/book_list
+
 
 ## Development
 
