@@ -11,7 +11,6 @@ class BookList::Book
         b.css('p.css-1o26r9v').text, #List Time
         b.css('p.css-14lubdp').text, #Description
         b.css('a.css-hndxeu').first['href'] #Purchase Link
-
     )
   end
 
@@ -33,6 +32,4 @@ class BookList::Book
   def self.find(id)
     self.all[id-1]
   end
-
-
 end
