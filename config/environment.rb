@@ -1,6 +1,7 @@
 require 'pry'
 require 'nokogiri'
 require 'open-uri'
+require 'date'
 
 require_relative '../lib/book_list/scraper'
 require_relative '../lib/book_list/cli'

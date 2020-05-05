@@ -2,22 +2,6 @@
 
 This Ruby Gem provides the user with the top 15 books on the New York Times Best Seller's list based on any given week through a CLI. The user can specify the week and fiction/nonfiction. The user can also request more information about any book on the list.
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'book_list'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install book_list
-
 ## Usage
 In the gem directory, type the following and follow the on screen prompts.
 
